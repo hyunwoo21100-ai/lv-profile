@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f3f0eb">
+<title>Lucianus Valerian — LV</title>
+<style>
+:root{--paper:#f5f2ed;--card:#fbf9f6;--ink:#45413d;--muted:#89827a;--line:#dfd9d1;--soft:#e9e4dd}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.6}
+header{height:66px;display:flex;align-items:center;justify-content:space-between;padding:0 5%;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(245,242,237,.94);backdrop-filter:blur(10px);z-index:5}
+.logo{font-size:1.5rem;font-style:italic;letter-spacing:-.12em}nav{display:flex;gap:25px}nav a{font-size:.85rem;text-decoration:none;color:var(--muted)}nav a:hover{color:var(--ink)}
+main{max-width:1250px;margin:0 auto;padding:24px 3% 0}.hero{min-height:300px;border-radius:5px;background:linear-gradient(110deg,#d9d2c8,#b7afa5 55%,#e9e4dd);display:flex;align-items:flex-end;justify-content:space-between;padding:clamp(25px,5vw,55px);position:relative;overflow:hidden}
+.hero:before{content:"LV";position:absolute;right:9%;top:-70px;font-size:clamp(15rem,32vw,27rem);font-style:italic;letter-spacing:-.15em;color:rgba(255,255,255,.27);line-height:1}
+.hero-copy{position:relative;z-index:1}.eyebrow{font: .7rem Arial,sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#655e56}
+h1{font-weight:400;font-size:clamp(2.7rem,6vw,5rem);line-height:.98;margin:18px 0 12px;letter-spacing:-.04em}.subtitle{letter-spacing:.25em;text-transform:uppercase;font: .72rem Arial,sans-serif;color:#655e56}.hero-quote{position:relative;z-index:1;max-width:200px;text-align:right;font-style:italic;color:#f9f7f3}
+.layout{display:grid;grid-template-columns:1.15fr .9fr .75fr;gap:14px;margin:18px 0}.column{display:grid;align-content:start;gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:22px;min-width:0}
+h2{font-size:1rem;font-weight:400;margin:0 0 17px;letter-spacing:.08em}h2:before{content:"✦";font-size:.7rem;margin-right:10px;color:#aaa095}
+dl{display:grid;grid-template-columns:minmax(100px,.8fr) 1.2fr;gap:7px 12px;margin:0;font-size:.91rem}dt{color:var(--muted)}dd{margin:0;overflow-wrap:anywhere}.about{margin:0;font-size:.97rem;color:#625c55}.sign{text-align:right;font-size:2rem;font-style:italic;color:#8b8278;margin-top:12px}
+.stats{display:grid;gap:12px}.stat{display:grid;grid-template-columns:78px 1fr 32px;gap:8px;align-items:center;font-size:.82rem}.track{height:6px;border:1px solid var(--line);border-radius:9px;overflow:hidden}.fill{height:100%;background:#b5aca2;border-radius:9px}
+.faves{display:grid;grid-template-columns:repeat(3,1fr);gap:15px 8px;text-align:center}.fave{font-size:.78rem;color:var(--muted)}.ico{width:38px;height:38px;display:grid;place-items:center;background:var(--soft);border-radius:50%;margin:0 auto 7px;font-size:1.1rem}
+ul{list-style:none;padding:0;margin:0}li{padding:8px 0;border-bottom:1px solid #eee9e3;font-size:.87rem;color:#6d665f}li:last-child{border:0}li:before{content:"◌";margin-right:9px;color:#9c9389}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:7px}.tile{min-height:100px;border-radius:3px;background:linear-gradient(135deg,#d8d1c7,#eeeae4);display:grid;place-items:center;color:#9b9186;font-size:1.8rem}.tile:nth-child(2){background:linear-gradient(135deg,#c9c2b9,#e7e0d7)}.tile:nth-child(3){background:linear-gradient(135deg,#e5dfd7,#c7beb3)}.tile:nth-child(4){background:linear-gradient(135deg,#bdb6ad,#e8e2da)}
+.social a{display:block;text-decoration:none;padding:5px 0;color:var(--muted);font-size:.88rem}.social a:hover{color:var(--ink)}
+.quote-bottom{text-align:center;padding:42px 10px 48px;font-size:clamp(1.1rem,2.5vw,1.5rem);font-style:italic;color:#82796f}.quote-bottom small{display:block;font: .67rem Arial,sans-serif;letter-spacing:.25em;text-transform:uppercase;margin-top:10px;color:var(--muted)}
+footer{display:flex;justify-content:space-between;gap:12px;padding:17px 0 22px;border-top:1px solid var(--line);font-size:.75rem;color:var(--muted)}
+@media(max-width:850px){.layout{grid-template-columns:1fr 1fr}.column:last-child{grid-column:1/-1;grid-template-columns:1fr 1fr}.hero{min-height:270px}.hero-quote{max-width:145px;font-size:.9rem}}
+@media(max-width:560px){header{padding:0 5%}nav{gap:12px}nav a{font-size:.75rem}main{padding:14px 4% 0}.hero{min-height:300px;display:block;padding:28px}.hero-quote{margin-top:38px;text-align:left}.layout{grid-template-columns:1fr}.column:last-child{grid-column:auto;grid-template-columns:1fr}.card{padding:19px}footer{flex-direction:column}}
+</style>
+</head>
+<body>
+<header><a class="logo" href="#" aria-label="LV home" style="text-decoration:none;color:inherit">LV</a><nav><a href="#bio">Biodata</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav></header>
+<main>
+<section class="hero"><div class="hero-copy"><div class="eyebrow">Personal profile · LV</div><h1>Lucianus<br>Valerian</h1><div class="subtitle">Dream softly · Grow steadily</div></div><div class="hero-quote">“Somewhere between reality and dreams, I found myself.”</div></section>
+<section class="layout">
+<div class="column">
+<article class="card" id="bio"><h2>Biodata</h2><dl><dt>Nama lengkap</dt><dd>Lucianus Valerian</dd><dt>Nama panggilan</dt><dd>LV</dd><dt>Tanggal lahir</dt><dd>14 Februari</dd><dt>Zodiak</dt><dd>Aquarius</dd><dt>Kebangsaan</dt><dd>Indonesia</dd><dt>Bahasa</dt><dd>Indonesia · English</dd><dt>Hobi</dt><dd>Membaca, musik, fotografi, menulis</dd><dt>Impian</dt><dd>Memberi dampak positif lewat karya dan pemikiran.</dd></dl></article>
+<article class="card"><h2>Kesukaan</h2><div class="faves"><div class="fave"><div class="ico">♫</div>Musik</div><div class="fave"><div class="ico">▤</div>Buku</div><div class="fave"><div class="ico">⌕</div>Fotografi</div><div class="fave"><div class="ico">✈</div>Perjalanan</div><div class="fave"><div class="ico">☕</div>Kopi</div><div class="fave"><div class="ico">☾</div>Malam tenang</div></div></article>
+</div>
+<div class="column">
+<article class="card" id="about"><h2>About Me</h2><p class="about">Aku seseorang yang sedang berusaha menjadi versi terbaik dari diri sendiri. Punya banyak mimpi, meski kadang terasa jauh, tapi aku tetap melangkah. Aku percaya hal-hal baik selalu datang di waktu yang tepat.</p><div class="sign">L V</div></article>
+<article class="card"><h2>Kepribadian</h2><div class="stats"><div class="stat"><span>Tenang</span><div class="track"><div class="fill" style="width:90%"></div></div><span>90%</span></div><div class="stat"><span>Tegas</span><div class="track"><div class="fill" style="width:80%"></div></div><span>80%</span></div><div class="stat"><span>Peka</span><div class="track"><div class="fill" style="width:75%"></div></div><span>75%</span></div><div class="stat"><span>Ambisius</span><div class="track"><div class="fill" style="width:85%"></div></div><span>85%</span></div><div class="stat"><span>Setia</span><div class="track"><div class="fill" style="width:95%"></div></div><span>95%</span></div><div class="stat"><span>Introvert</span><div class="track"><div class="fill" style="width:80%"></div></div><span>80%</span></div></div></article>
+</div>
+<div class="column">
+<article class="card"><h2>Tidak Disukai</h2><ul><li>Keramaian berlebihan</li><li>Drama yang tidak perlu</li><li>Ketidakjujuran</li><li>Membuang waktu</li><li>Hal yang tidak masuk akal</li></ul></article>
+<article class="card" id="gallery"><h2>Little Gallery</h2><div class="gallery"><div class="tile">☼</div><div class="tile">✧</div><div class="tile">♫</div><div class="tile">☾</div></div></article>
+<article class="card social" id="contact"><h2>Social</h2><a href="#contact">◎ &nbsp; @lv.official</a><a href="#contact">𝕏 &nbsp; @lv_valerian</a><a href="#contact">♪ &nbsp; @lv.valerian</a></article>
+</div>
+</section>
+<div class="quote-bottom">“Small steps, big dreams.”<small>— Lucianus Valerian</small></div>
+<footer><span>Lucianus Valerian / LV</span><span>Soft heart · Clear mind · Quiet ambition</span></footer>
+</main>
+</body></html>
